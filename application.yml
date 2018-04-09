@@ -8,3 +8,4 @@ eureka:
     leaseExpirationDurationInSeconds: 90
     metadataMap:
       instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+
